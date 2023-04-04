@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,600;1,400&family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,600;1,400&family=Lilita+One&family=Mochiy+Pop+P+One&family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300&family=Teko&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smo oth;
+  }
+
+  /* navbar */
+  .bar {
+    width: 100%;
+    height: 5rem;
+    background-color: #b10808;
+  }
+
+  .bar img{
+    width: 15rem;
+    height: auto;
+    margin-left: 35rem;
+    margin-top: -2rem;
+  }
+
+  @media screen and (max-width:810px){
+    .bar img{
+      margin: -2rem 0 0 4rem;
+    }
+  }
+  /* end */
+
+  /* home */
+  .containerhome {
+    background-image: radial-gradient(#E60023, #6b1313 );
+    width: 100%;
+    height: 750px;
+  }
+
+  .gmbr1 img {
+    width: 430px;
+    height: auto;
+    display: inline-block;
+    margin: 3rem 0 0 10rem;
+  }
+
+  .containerhome h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #fff;
+    margin: 1 7rem 0 7rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+
+  .containerhome h3 {
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+  }
+
+  .aym img {
+    width: 430px;
+    height: auto;
+    z-index: -1;
+    margin-top: -13rem;
+    float: right;
+  }
+
+  @media screen and (max-width:810px) {
+    .containerhome {
+      height: 550px;
+    }
+    
+    .gmbr1 img {
+      width: 160px;
+      height: auto;
+      margin: 3rem 0 0 0 ;
+    }  
+  .gmbr1 img:nth-child(1){
+      margin-left: 2rem;
+    }
+
+    .containerhome h2 {
+      font-size: 1.5rem;
+      margin: 1rem 1rem 0 1rem;
+    }
+
+    .aym img {
+      width: 250px;
+      margin-top: -6rem;
+    }
+  }
+
+  /* menu */
+
+  .h1menu h1 {
+    font-size: 3rem;
+    margin: 3rem 0 0 32rem;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+  }
+
+  .containereven {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.containereven h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box {
+  width: 600px;
+  height: 400px;
+  background: transparent;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+
+.vocer img {
+  width: 600px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: -6rem;
+}
+
+.vocer h2 {
+  margin-top: -3rem;
+  font-size: 1rem;
+}
+
+.vocer h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: #640e1b;
+  margin-top: -0.7rem;
+}
+
+@media screen and (max-width:810px) {
+  .box {
+    height: 250px;
+  }
+
+  .h1menu h1 {
+    font-size: 2rem;
+    margin: 2rem 0 0 6.5rem ;
+  }
+
+  .vocer img {
+    width: 300px;
+    height: auto;
+    margin-top: -4rem;
+  }
+
+  .vocer h2 {
+    font-size: 1rem;
+    margin-top: -1rem;
+  }
+}
+
+/* akhir */
+.containerakhir {
+  width: 100%;
+  height: 700px;
+  background-image: radial-gradient(#292929, #0e0e0e );
+}
+
+.logo1 img {
+  width: 5rem;
+  height: auto;
+  margin: 2rem 0 0 2rem;
+}
+
+.logo2 img {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5rem;
+  z-index: 3;
+}
+
+.logo3 img {
+  width: 300px;
+  height: auto;
+  float: right;
+  margin: -15rem 2rem 0 0 ;
+  transform: rotate(-20deg);
+  opacity: 40%;
+}
+
+.logo4 img {
+  width: 300px;
+  height: auto;
+  margin: -16rem 0 0 3rem;
+  opacity: 40%;
+  transform: rotate(20deg);
+}
+
+.containerakhir h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'Bungee', cursive;
+}
+
+.containerakhir h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+@media screen and (max-width:810px) {
+  .containerakhir {
+    width: 100%;
+    height: 550px;
+  }
+  .logo1 img {
+    width: 3rem;
+    height: auto;
+    margin: 1rem 0 0 1rem;
+  }
+
+  .logo2 img {
+    width: 330px;
+    height: auto;
+    z-index: 2;
+    position: relative;
+    margin-top: -2rem;
+  }
+
+  .logo3 img {
+    margin-top: -15rem;
+    margin-right: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .logo4 img {
+    margin-top: -10rem;
+    margin-left: 1rem;
+  }
+  .containerakhir h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .containerakhir h2 {
+    font-size: 2rem;
+  }
+}
+/* footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #b10808;
+}
+
+.footer img {
+  opacity: 20%;
+  width: 250px;
+  height: auto;
+  margin-left: -60rem;
+  margin-top: 1rem;
+}
+
+.footer h2 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Teko', sans-serif;
+  margin: 2rem 0 0 0;
+  font-weight: 300;
+  margin-top: -12rem;
+}
+
+.footer h3 {
+  margin: 0 20rem 0 20rem;
+  font-size: 1.3rem;
+  color: rgb(241, 132, 58);
+  font-family: 'Oswald', sans-serif;
+}
+
+.line{
+  align-items: center;
+  width:80%;
+  height:2px;;
+  background: rgb(0, 0, 0);
+  margin-top: 2rem;
+}
+
+.copy h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+  color: rgb(0, 0, 0);
+}
+
+.footer img:nth-child(2){
+  margin-right: -120rem;
+  margin-top: -15rem;
+}
+
+@media screen and (max-width: 810px) {
+  .copy h3 {
+      font-size: 0.9rem;
+      padding: 1rem 0 1rem 0;
+  }
+
+  .footer img{
+    display: none;
+  }
+
+  .footer h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  .footer h3 {
+    font-size: 1rem;
+    margin: 0 2rem 0 2rem;
+  }
+}
+
